@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Works</title>
+    <style>
+        .parent-block {
+            position: relative;
+            width: 350px;
+            height: 80px;
+            border: 1px solid #000;
+            margin-top: 20px;
+        }
+        .small-block {
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            background-color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="gmail_input" placeholder="Введите @gmail.com">
+        <button type="button" id="gmail_button">Проверить</button>
+        <span id="gmail_result"></span>
+    </div>
+
+    <div class="parent-block">
+        <div class="small-block"></div>
+    </div>
+
+    <script src="./home_works.js"></script>
+</body>
+</html>
